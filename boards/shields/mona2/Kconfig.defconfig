@@ -28,7 +28,7 @@ config ZMK_POINTING
 config SPI
     default y
 
-config PMW3610
+config PAW3222
     default y
 
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
