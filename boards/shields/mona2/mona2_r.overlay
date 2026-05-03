@@ -58,9 +58,9 @@
 
 
 // Overrides for the input listener node
-//&trackball_central_listener {
-//    status = "okay";
-//    device = <&trackball_central>;
+&trackball_central_listener {
+    status = "okay";
+    device = <&trackball_central>;
 
 //    scroller {
 //        layers = <2>;
@@ -71,4 +71,4 @@
 //                           <&zip_scroll_scaler 1 5>;                           //スクロール量を1/4倍
 //    };
 
-//};
+};
