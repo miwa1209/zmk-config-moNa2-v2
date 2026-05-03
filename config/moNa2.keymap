@@ -108,7 +108,6 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
             tap-ms = <20>;
         };
 
@@ -116,7 +115,6 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
-
             tap-ms = <20>;
         };
     };
@@ -143,7 +141,7 @@
 &kp GLOBE          &kp RS(CARET)  &trans       &kp LSHFT             &kp LGUI               &kp LALT    &kp COMMA     &kp PERIOD                           &code_px
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LS(LEFT_BRACE)) LG(LS(RIGHT_BRACE))>;
+            sensor-bindings = <&inc_dec_kp LEFT_BRACE RIGHT_BRACE>;
         };
 
         ARROW {
@@ -185,7 +183,7 @@
 &trans  &trans  &trans  &kp LSHFT  &kp LGUI       &kp LALT    &trans  &trans                                        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LEFT_ARROW) LC(RIGHT_ARROW)>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
     };
 };
