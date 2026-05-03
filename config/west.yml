@@ -18,11 +18,8 @@ manifest:
       revision: v0.3-branch
       import: app/west.yml
     - name: zmk-driver-paw3222
-      remote: badjeff
-      revision: zmk-0.3
-    # - name: zmk-driver-paw3222
-    #   remote: sekigon-gonnoc
-    #   revision: main
+      remote: sekigon-gonnoc
+      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3-branch
