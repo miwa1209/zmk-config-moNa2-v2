@@ -1,27 +1,27 @@
-layout: {zmk_keyboard: mona2}
+layout: {zmk_keyboard: moNa2}
 layers:
   default:
   - Q
-  - {t: W, h: NUM}
-  - {t: E, h: ARROW}
-  - {t: R, h: '5'}
-  - {t: T, h: lay}
+  - W
+  - E
+  - R
+  - T
   - Y
-  - {t: U, h: NUM}
-  - {t: I, h: ARROW}
-  - {t: O, h: '5'}
-  - {t: P, h: lay}
+  - U
+  - I
+  - O
+  - P
   - A
-  - {t: S, h: NUM}
-  - {t: D, h: ARROW}
-  - {t: F, h: '5'}
-  - {t: G, h: lay}
-  - LEFT ARROW
+  - S
+  - D
+  - F
+  - G
+  - F13
   - H
-  - {t: J, h: NUM}
-  - {t: K, h: ARROW}
-  - {t: L, h: '5'}
-  - {t: '-', h: Ctl+RIGHT SHIFT}
+  - J
+  - K
+  - L
+  - ;
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
