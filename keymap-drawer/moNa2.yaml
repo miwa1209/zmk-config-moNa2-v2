@@ -2,26 +2,26 @@ layout: {zmk_keyboard: moNa2}
 layers:
   default:
   - Q
-  - W
-  - E
-  - R
-  - T
+  - {t: W, h: NUM}
+  - {t: E, h: ARROW}
+  - {t: R, h: '5'}
+  - {t: T, h: lay}
   - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: U, h: NUM}
+  - {t: I, h: ARROW}
+  - {t: O, h: '5'}
+  - {t: P, h: lay}
   - A
-  - S
-  - D
-  - F
-  - G
-  - F13
+  - {t: S, h: NUM}
+  - {t: D, h: ARROW}
+  - {t: F, h: '5'}
+  - {t: G, h: lay}
+  - LEFT ARROW
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: NUM}
+  - {t: K, h: ARROW}
+  - {t: L, h: '5'}
+  - {t: '-', h: Ctl+RIGHT SHIFT}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
