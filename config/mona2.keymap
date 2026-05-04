@@ -144,7 +144,7 @@
 &kp GLOBE          &kp RS(CARET)  &trans       &kp LSHFT             &kp LGUI               &kp LALT    &kp COMMA     &kp PERIOD                           &code_px
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(LS(LEFT_BRACE)) LG(LS(RIGHT_BRACE))>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         ARROW {
