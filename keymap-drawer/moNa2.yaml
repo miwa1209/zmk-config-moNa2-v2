@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: mona2}
+layout: {zmk_keyboard: moNa2}
 layers:
   default:
   - Q
@@ -222,9 +222,9 @@ layers:
   - Alt+Z
   - {t: Sft+Alt+F, type: held}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '5'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
