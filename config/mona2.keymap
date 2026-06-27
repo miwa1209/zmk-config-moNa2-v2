@@ -44,7 +44,7 @@
         };
 
         nami {
-            bindings = <&kp RS(GRAVE)>;
+            bindings = <&kp PLUS>;
             key-positions = <29 30>;
         };
 
@@ -69,12 +69,12 @@
         };
 
         kakko {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp LS(NUMBER_8)>;
             key-positions = <1 2>;
         };
 
         kakko2 {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp LS(N9)>;
             key-positions = <2 3>;
         };
     };
@@ -127,10 +127,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &lt 1 W       &lt 2 E       &lt 3 R   &lt 5 T                                           &kp Y                &lt 1 U  &lt 2 I                  &lt 3 O                   &lt 5 P
-&kp A             &lt 1 S       &lt 2 D       &lt 3 F   &lt 5 G                &kp LEFT_ARROW             &kp H                &lt 1 J  &lt 2 K                  &lt 3 L                   &mt RC(RIGHT_SHIFT) MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &mkp MB3     &kp RIGHT_ARROW            &kp N                &kp M    &mt RS(RIGHT_GUI) COMMA  &mt RA(RIGHT_GUI) PERIOD  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB2  &mkp MB1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_GUI ENTER                                                              &kp DEL
+&kp Q             &lt 1 W    &lt 2 E       &lt 3 R   &lt 5 T                                           &kp Y            &lt 1 U  &lt 2 I              &lt 3 O               &lt 5 P
+&kp A             &lt 1 S    &lt 2 D       &lt 3 F   &lt 5 G                &kp LEFT_ARROW             &kp H            &lt 1 J  &lt 2 K              &lt 3 L               &mt RC(RIGHT_SHIFT) MINUS
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V     &kp B     &mkp MB3     &kp RIGHT_ARROW            &kp N            &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
+&kp LEFT_GUI      &kp LCTRL  &kp LEFT_ALT  &mkp MB2  &mkp MB1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &mt LCTRL ENTER                                                      &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
@@ -138,10 +138,10 @@
 
         NUM {
             bindings = <
-&kp DOUBLE_QUOTES  &kp SQT        &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                            &kp N0       &kp N1  &kp N2  &kp N3  &kp PLUS
-&kp SEMI           &kp COLON      &kp POUND    &kp LEFT_BRACE        &kp RIGHT_BRACE                    &kp ASTERISK  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
-&trans             &kp INT_YEN    &kp AMPS     &kp LBKT              &kp RBKT               &kp BSLH    &kp SPACE     &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp EQUAL
-&kp GLOBE          &kp RS(CARET)  &trans       &kp LSHFT             &kp LGUI               &kp LALT    &kp COMMA     &kp PERIOD                           &code_px
+&kp LS(NUMBER_2)  &kp LS(NUMBER_7)  &kp LEFT_BRACKET  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)                                   &kp N0       &kp N1  &kp N2  &kp N3  &kp LS(SEMICOLON)
+&kp SEMI          &kp SINGLE_QUOTE  &kp POUND         &kp RIGHT_BRACE    &kp LS(BACKSLASH)               &kp DOUBLE_QUOTES  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp LS(NUMBER_4)  &kp INT_YEN       &kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp UNDER    &kp SPACE          &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp LS(MINUS)
+&kp GLOBE         &kp RS(CARET)     &trans            &kp LSHFT          &kp LCTRL          &kp LALT     &kp COMMA          &kp PERIOD                           &code_px
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
@@ -149,10 +149,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE     &kp LS(LG(NUMBER_4))  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                &trans             &trans    &kp UP    &trans           &trans
-&trans         &trans                &kp F7      &kp F8             &kp F9                       &trans            &trans             &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
-&trans         &trans                &trans      &trans             &trans           &trans      &trans            &trans             &trans    &trans    &trans           &trans
-&kp LS(LG(M))  &trans                &trans      &kp LSHFT          &kp LGUI         &kp LALT    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))                                       &kp RC(RG(Q))
+&kp ESCAPE     &kp LS(LG(S))  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                &trans             &trans    &kp UP    &trans           &trans
+&trans         &trans         &kp F7      &kp F8             &kp F9                       &trans            &trans             &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
+&trans         &trans         &trans      &trans             &trans           &trans      &trans            &trans             &trans    &trans    &trans           &trans
+&kp LS(LG(M))  &trans         &trans      &kp LSHFT          &kp LGUI         &kp LALT    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))                                       &kp RC(RG(Q))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
