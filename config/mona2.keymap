@@ -152,7 +152,7 @@
 &kp ESCAPE     &kp LS(LG(S))  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                &trans             &trans    &kp UP    &trans           &trans
 &trans         &trans         &kp F7      &kp F8             &kp F9                       &trans            &trans             &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
 &trans         &trans         &trans      &trans             &trans           &trans      &trans            &trans             &trans    &trans    &trans           &trans
-&kp LS(LG(M))  &trans         &trans      &kp LSHFT          &kp LGUI         &kp LALT    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))                                       &kp RC(RG(Q))
+&kp LS(LG(M))  &trans         &trans      &kp LSHFT          &kp LCTRL        &kp LALT    &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))                                       &kp RC(RG(Q))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -160,10 +160,10 @@
 
         MOUSE {
             bindings = <
-&kp LG(NUMBER_1)  &kp LG(N2)    &kp LG(N3)     &kp F1     &kp F2                               &trans             &mkp MB5  &mkp MB4  &trans  &trans
-&trans            &kp LG(LEFT)  &kp LG(RIGHT)  &trans     &trans                &trans         &trans             &trans    &trans    &trans  &trans
-&trans            &trans        &trans         &trans     &trans    &trans      &trans         &trans             &trans    &trans    &trans  &trans
-&trans            &trans        &trans         &kp LSHFT  &kp LGUI  &kp LALT    &kp LG(MINUS)  &kp LS(LG(EQUAL))                              &trans
+&kp LG(NUMBER_1)  &kp LG(N2)    &kp LG(N3)     &kp F1     &kp F2                                &trans             &mkp MB5  &mkp MB4  &trans  &trans
+&trans            &kp LG(LEFT)  &kp LG(RIGHT)  &trans     &trans                 &trans         &trans             &trans    &trans    &trans  &trans
+&trans            &trans        &trans         &trans     &trans     &trans      &trans         &trans             &trans    &trans    &trans  &trans
+&trans            &trans        &trans         &kp LSHFT  &kp RCTRL  &kp LALT    &kp LG(MINUS)  &kp LS(LG(EQUAL))                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp F1 F2>;
@@ -183,7 +183,7 @@
 &trans  &trans  &trans  &kp LA(Z)  &kp LS(LA(F))                      &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
 &trans  &trans  &trans  &trans     &trans                     &trans  &trans          &mkp MB1      &mkp MB3      &mkp MB2      &trans
 &trans  &trans  &trans  &trans     &trans         &trans      &trans  &trans          &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &kp LSHFT  &kp LGUI       &kp LALT    &trans  &trans                                                    &trans
+&trans  &trans  &trans  &kp LSHFT  &kp LCTRL      &kp LALT    &trans  &trans                                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LEFT_ARROW) LC(RIGHT_ARROW)>;
