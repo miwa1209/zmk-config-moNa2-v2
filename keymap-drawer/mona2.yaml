@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - LGUI
+  - LCTRL
   - LALT
   - Sft+Gui+LEFT
   - Sft+Gui+RIGHT
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - LGUI
+  - RCTRL
   - LALT
   - Gui+-
   - Sft+Gui+=
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - LGUI
+  - LCTRL
   - LALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
