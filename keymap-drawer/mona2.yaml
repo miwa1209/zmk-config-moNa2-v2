@@ -99,9 +99,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -126,8 +126,8 @@ layers:
   - LSHFT
   - LCTRL
   - LALT
-  - Gui+LEFT
-  - Gui+RIGHT
+  - Ctl+LEFT
+  - Ctl+Sft+Z
   - Gui+L
   '5':
   - Ctl+1
@@ -169,8 +169,8 @@ layers:
   - LSHFT
   - RCTRL
   - LALT
-  - Sft+Ctl+;
   - Ctl+-
+  - Ctl+Sft+;
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
