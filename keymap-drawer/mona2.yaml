@@ -120,32 +120,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Gui+M
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
   - LCTRL
   - LALT
-  - Sft+Gui+LEFT
-  - Sft+Gui+RIGHT
-  - Ctl+Gui+Q
+  - Gui+LEFT
+  - Gui+RIGHT
+  - Gui+L
   '5':
+  - Ctl+1
+  - Ctl+2
+  - Ctl+3
+  - {t: F1, type: held}
+  - F2
+  - Gui+0
   - Gui+1
   - Gui+2
   - Gui+3
-  - {t: F1, type: held}
-  - F2
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+LEFT
-  - Gui+RIGHT
+  - Alt+LEFT
+  - AltGr+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+4
+  - Gui+5
+  - Gui+6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,22 +159,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+7
+  - Gui+8
+  - Gui+9
+  - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
   - RCTRL
   - LALT
-  - Gui+-
-  - Sft+Gui+=
+  - Sft+Ctl+;
+  - Ctl+-
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
