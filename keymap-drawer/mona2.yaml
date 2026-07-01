@@ -126,7 +126,7 @@ layers:
   - LSHFT
   - LCTRL
   - LALT
-  - Ctl+LEFT
+  - Ctl+Z
   - Ctl+Sft+Z
   - Gui+L
   '5':
