@@ -138,10 +138,10 @@
 
         NUM {
             bindings = <
-&kp LS(NUMBER_2)  &kp LS(NUMBER_7)  &kp LEFT_BRACKET  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)                                   &kp N0       &kp N1  &kp N2  &kp N3  &kp LS(SEMICOLON)
-&kp SEMI          &kp SINGLE_QUOTE  &kp POUND         &kp RIGHT_BRACE    &kp LS(BACKSLASH)               &kp DOUBLE_QUOTES  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp LS(NUMBER_4)  &kp INT_YEN       &kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp UNDER    &kp SPACE          &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp LS(MINUS)
-&kp GLOBE         &kp RS(CARET)     &trans            &kp LSHFT          &kp LCTRL          &kp LALT     &kp COMMA          &kp PERIOD                           &code_px
+&kp LS(NUMBER_2)  &kp LS(NUMBER_7)  &kp LEFT_BRACKET  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)                                        &kp N0       &kp N1  &kp N2  &kp N3  &kp LS(SEMICOLON)
+&kp SEMI          &kp SINGLE_QUOTE  &kp POUND         &kp RIGHT_BRACE    &kp LS(BACKSLASH)                    &kp DOUBLE_QUOTES  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp LS(NUMBER_4)  &kp INT_YEN       &kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp UNDERSCORE    &kp SPACE          &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp LS(MINUS)
+&kp GLOBE         &kp RS(CARET)     &trans            &kp LSHFT          &kp LCTRL          &kp LALT          &kp COMMA          &kp PERIOD                           &code_px
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
