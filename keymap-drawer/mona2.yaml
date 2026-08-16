@@ -99,9 +99,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACK
-  - PLAY PAUSE
-  - NEXT
+  - RW
+  - PP
+  - FF
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
