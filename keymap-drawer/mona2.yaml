@@ -16,7 +16,7 @@ layers:
   - {t: D, h: ARROW}
   - {t: F, h: '5'}
   - {t: G, h: BT}
-  - LEFT ARROW
+  - Sft+INT1
   - H
   - {t: J, h: NUM}
   - {t: K, h: ARROW}
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - '&mkp MB3'
-  - RIGHT ARROW
+  - +
   - N
   - M
   - {t: ',', h: Sft+RCTRL}
@@ -70,16 +70,16 @@ layers:
   - Sft+6
   - ']'
   - \
-  - Sft+INT RO
+  - INT RO
   - SPACE
   - '%'
   - '7'
   - '8'
   - '9'
   - Sft+-
-  - GLOBE
+  - CAPS
   - Sft+^
-  - {t: ▽, type: trans}
+  - +
   - LSHFT
   - LCTRL
   - LALT
@@ -99,9 +99,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT GUI
-  - {t: ▽, type: trans}
+  - REWIND
+  - PLAY PAUSE
+  - FAST FORWARD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -133,8 +133,8 @@ layers:
   - Ctl+1
   - Ctl+2
   - Ctl+3
-  - {t: F1, type: held}
-  - F2
+  - {t: BRI DN, type: held}
+  - BRI UP
   - Gui+0
   - Gui+1
   - Gui+2
@@ -146,11 +146,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
   - Gui+4
   - Gui+5
   - Gui+6
-  - {t: ▽, type: trans}
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -163,7 +163,7 @@ layers:
   - Gui+8
   - Gui+9
   - LGUI
-  - {t: ▽, type: trans}
+  - Sft+Ctl+ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -188,7 +188,7 @@ layers:
   - {t: D, h: ARROW_m}
   - {t: F, h: MOUSE_m}
   - {t: G, h: BT}
-  - LEFT ARROW
+  - _
   - H
   - {t: J, h: NUM_m}
   - {t: K, h: ARROW_m}
@@ -200,7 +200,7 @@ layers:
   - V
   - B
   - '&mkp MB3'
-  - RIGHT ARROW
+  - Sft+`
   - N
   - M
   - {t: ',', h: Sft+RCTRL}
@@ -251,7 +251,7 @@ layers:
   - '='
   - GLOBE
   - Sft+LEFT GUI
-  - {t: ▽, type: trans}
+  - Sft+`
   - LSHFT
   - LEFT GUI
   - LALT
@@ -318,11 +318,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+Q
   - Gui+4
   - Gui+5
   - Gui+6
-  - {t: ▽, type: trans}
+  - Sft+Ctl+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,8 +351,8 @@ layers:
   - Alt+Z
   - {t: Sft+Alt+F, type: held}
   - BT CLR ALL
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - '&WIN'
+  - '&MAC'
   - {t: BT, h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
