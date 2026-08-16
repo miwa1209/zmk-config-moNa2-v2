@@ -185,10 +185,10 @@
 
         MAC {
             bindings = <
-&kp Q             &lt 5 W       &lt 6 E       &lt 7 R   &lt 8 T                                           &kp Y            &lt 5 U  &lt 6 I              &lt 7 O               &lt 8 P
-&kp A             &lt 5 S       &lt 6 D       &lt 7 F   &lt 8 G                &kp UNDER                  &kp H            &lt 5 J  &lt 6 K              &lt 7 L               &mt RC(RIGHT_SHIFT) MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &mkp MB3     &kp LS(GRAVE)              &kp N            &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mkp MB2  &mkp MB1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &mt LCTRL ENTER                                                      &kp DEL
+&kp Q             &lt 5 W       &lt 6 E       &lt 7 R   &lt 8 T                                           &kp Y               &lt 5 U  &lt 6 I              &lt 7 O               &lt 8 P
+&kp A             &lt 5 S       &lt 6 D       &lt 7 F   &lt 8 G                &kp UNDER                  &kp H               &lt 5 J  &lt 6 K              &lt 7 L               &mt RC(RIGHT_SHIFT) MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &mkp MB3     &kp LS(GRAVE)              &kp N               &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mkp MB2  &mkp MB1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &mt LEFT_GUI ENTER                                                      &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
