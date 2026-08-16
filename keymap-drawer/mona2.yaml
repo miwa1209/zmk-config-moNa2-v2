@@ -97,8 +97,8 @@ layers:
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACK
+  - NEXT
   - RW
   - PP
   - FF
@@ -108,6 +108,11 @@ layers:
   - DOWN
   - RIGHT ARROW
   - {t: ▽, type: trans}
+  - NEXT
+  - PREVIOUS
+  - REWIND
+  - PLAY PAUSE
+  - FAST FORWARD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,15 +120,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHFT
+  - AC BACK
+  - PAUSE
+  - PLAY PAUSE
+  - KEYBOARD INPUT ASSIST NEXT
   - LCTRL
   - LALT
   - Ctl+Z
