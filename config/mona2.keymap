@@ -142,8 +142,8 @@
         WIN {
             bindings = <
 &kp Q             &lt 1 W    &lt 2 E       &lt 3 R   &lt 8 T                                           &kp Y            &lt 1 U  &lt 2 I              &lt 3 O               &lt 8 P
-&kp A             &lt 1 S    &lt 2 D       &lt 3 F   &lt 8 G                &kp LEFT_ARROW             &kp H            &lt 1 J  &lt 2 K              &lt 3 L               &mt RC(RIGHT_SHIFT) MINUS
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V     &kp B     &mkp MB3     &kp RIGHT_ARROW            &kp N            &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
+&kp A             &lt 1 S    &lt 2 D       &lt 3 F   &lt 8 G                &kp LS(INT1)               &kp H            &lt 1 J  &lt 2 K              &lt 3 L               &mt RC(RIGHT_SHIFT) MINUS
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V     &kp B     &mkp MB3     &kp PLUS                   &kp N            &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
 &kp LEFT_GUI      &kp LCTRL  &kp LEFT_ALT  &mkp MB2  &mkp MB1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &mt LCTRL ENTER                                                      &kp DEL
             >;
 
@@ -152,10 +152,10 @@
 
         NUM {
             bindings = <
-&kp LS(NUMBER_2)  &kp LS(NUMBER_7)  &kp LEFT_BRACKET  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)                                        &kp N0       &kp N1  &kp N2  &kp N3  &kp LS(SEMICOLON)
-&kp SEMI          &kp SINGLE_QUOTE  &kp POUND         &kp RIGHT_BRACE    &kp LS(BACKSLASH)                    &kp DOUBLE_QUOTES  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp LS(NUMBER_4)  &kp INT_YEN       &kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp LS(INT_RO)    &kp SPACE          &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp LS(MINUS)
-&kp GLOBE         &kp RS(CARET)     &trans            &kp LSHFT          &kp LCTRL          &kp LALT          &kp COMMA          &kp PERIOD                           &code_px
+&kp LS(NUMBER_2)  &kp LS(NUMBER_7)  &kp LEFT_BRACKET  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)                                    &kp N0       &kp N1  &kp N2  &kp N3  &kp LS(SEMICOLON)
+&kp SEMI          &kp SINGLE_QUOTE  &kp POUND         &kp RIGHT_BRACE    &kp LS(BACKSLASH)                &kp DOUBLE_QUOTES  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp LS(NUMBER_4)  &kp INT_YEN       &kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp INT_RO    &kp SPACE          &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp LS(MINUS)
+&kp CAPS          &kp RS(CARET)     &kp PLUS          &kp LSHFT          &kp LCTRL          &kp LALT      &kp COMMA          &kp PERIOD                           &code_px
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
@@ -163,10 +163,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LS(LG(S))  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                         &trans         &trans    &kp UP    &trans           &trans
-&trans      &trans         &trans      &kp LEFT_GUI       &trans                       &trans     &trans         &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
-&trans      &trans         &trans      &trans             &trans           &trans      &trans     &trans         &trans    &trans    &trans           &trans
-&trans      &trans         &trans      &kp LSHFT          &kp LCTRL        &kp LALT    &kp LC(Z)  &kp LC(LS(Z))                                       &kp LG(L)
+&kp ESCAPE  &kp LS(LG(S))  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &trans         &trans    &kp UP    &trans           &trans
+&trans      &trans         &kp C_REWIND  &kp C_PLAY_PAUSE   &kp C_FAST_FORWARD              &trans     &trans         &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
+&trans      &trans         &trans        &trans             &trans              &trans      &trans     &trans         &trans    &trans    &trans           &trans
+&trans      &trans         &trans        &kp LSHFT          &kp LCTRL           &kp LALT    &kp LC(Z)  &kp LC(LS(Z))                                       &kp LG(L)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -174,20 +174,20 @@
 
         MOUSE {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(N2)    &kp LC(N3)           &kp F1     &kp F2                                &kp LG(N0)             &kp LG(NUMBER_1)  &kp LG(N2)  &kp LG(N3)  &trans
-&trans            &kp LA(LEFT)  &kp RA(RIGHT_ARROW)  &trans     &trans                 &trans         &trans                 &kp LG(N4)        &kp LG(N5)  &kp LG(N6)  &trans
-&trans            &trans        &trans               &trans     &trans     &trans      &trans         &trans                 &kp LG(N7)        &kp LG(N8)  &kp LG(N9)  &kp LGUI
-&trans            &trans        &trans               &kp LSHFT  &kp RCTRL  &kp LALT    &kp LC(MINUS)  &kp LC(LS(SEMICOLON))                                            &trans
+&kp LC(NUMBER_1)  &kp LC(N2)    &kp LC(N3)           &kp C_BRI_DN  &kp C_BRI_UP                             &kp LG(N0)             &kp LG(NUMBER_1)  &kp LG(N2)  &kp LG(N3)  &trans
+&trans            &kp LA(LEFT)  &kp RA(RIGHT_ARROW)  &trans        &trans                    &trans         &kp RG(LEFT_ARROW)     &kp LG(N4)        &kp LG(N5)  &kp LG(N6)  &kp RG(RIGHT_ARROW)
+&trans            &trans        &trans               &trans        &trans        &trans      &trans         &trans                 &kp LG(N7)        &kp LG(N8)  &kp LG(N9)  &kp LGUI
+&kp LS(LC(ESC))   &trans        &trans               &kp LSHFT     &kp RCTRL     &kp LALT    &kp LC(MINUS)  &kp LC(LS(SEMICOLON))                                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp F1 F2>;
+            sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
 
         MAC {
             bindings = <
 &kp Q             &lt 5 W       &lt 6 E       &lt 7 R   &lt 8 T                                           &kp Y            &lt 5 U  &lt 6 I              &lt 7 O               &lt 8 P
-&kp A             &lt 5 S       &lt 6 D       &lt 7 F   &lt 8 G                &kp LEFT_ARROW             &kp H            &lt 5 J  &lt 6 K              &lt 7 L               &mt RC(RIGHT_SHIFT) MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &mkp MB3     &kp RIGHT_ARROW            &kp N            &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
+&kp A             &lt 5 S       &lt 6 D       &lt 7 F   &lt 8 G                &kp UNDER                  &kp H            &lt 5 J  &lt 6 K              &lt 7 L               &mt RC(RIGHT_SHIFT) MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &mkp MB3     &kp LS(GRAVE)              &kp N            &kp M    &mt RS(RCTRL) COMMA  &mt RA(RCTRL) PERIOD  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mkp MB2  &mkp MB1  &kp SPACE    &mt RIGHT_SHIFT BACKSPACE  &mt LCTRL ENTER                                                      &kp DEL
             >;
 
@@ -199,7 +199,7 @@
 &kp DQT     &kp SINGLE_QUOTE  &kp AT_SIGN    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                 &kp N0       &kp N1  &kp N2  &kp N3  &kp PLUS
 &kp SEMI    &kp COLON         &kp POUND      &kp LEFT_BRACE        &kp RIGHT_BRACE                         &kp ASTERISK  &kp SLASH    &kp N4  &kp N5  &kp N6  &kp MINUS
 &kp DOLLAR  &kp INT_YEN       &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SPACE     &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp EQUAL
-&kp GLOBE   &kp RS(LEFT_GUI)  &trans         &kp LSHFT             &kp LEFT_GUI           &kp LALT         &kp COMMA     &kp PERIOD                           &code_px
+&kp GLOBE   &kp RS(LEFT_GUI)  &kp LS(GRAVE)  &kp LSHFT             &kp LEFT_GUI           &kp LALT         &kp COMMA     &kp PERIOD                           &code_px
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
@@ -219,7 +219,7 @@
         MOUSE_m {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(N2)    &kp LC(N3)           &kp F1     &kp F2                                   &kp LG(N0)     &kp LG(NUMBER_1)  &kp LG(N2)  &kp LG(N3)  &trans
-&trans            &kp LG(LEFT)  &kp LG(RIGHT_ARROW)  &trans     &trans                    &trans         &trans         &kp LG(N4)        &kp LG(N5)  &kp LG(N6)  &trans
+&trans            &kp LG(LEFT)  &kp LG(RIGHT_ARROW)  &trans     &trans                    &trans         &kp LS(LC(Q))  &kp LG(N4)        &kp LG(N5)  &kp LG(N6)  &kp LS(LC(W))
 &trans            &trans        &trans               &trans     &trans        &trans      &trans         &trans         &kp LG(N7)        &kp LG(N8)  &kp LG(N9)  &kp LGUI
 &trans            &trans        &trans               &kp LSHFT  &kp LEFT_GUI  &kp LALT    &kp LG(MINUS)  &kp LG(EQUAL)                                            &trans
             >;
@@ -229,10 +229,10 @@
 
         BT {
             bindings = <
-&trans  &trans  &trans  &kp LA(Z)  &kp LS(LA(F))                    &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
-&trans  &trans  &trans  &trans     &trans                   &trans  &trans          &mkp MB1      &mkp MB3      &mkp MB2      &trans
-&trans  &trans  &trans  &trans     &trans         &trans    &trans  &trans          &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans     &trans         &trans    &trans  &trans                                                    &trans
+&trans  &trans  &trans  &kp LA(Z)  &kp LS(LA(F))                    &bt BT_CLR_ALL  &WIN      &MAC      &bt BT_SEL 2  &trans
+&trans  &trans  &trans  &trans     &trans                   &trans  &trans          &mkp MB1  &mkp MB3  &mkp MB2      &trans
+&trans  &trans  &trans  &trans     &trans         &trans    &trans  &trans          &trans    &trans    &trans        &trans
+&trans  &trans  &trans  &trans     &trans         &trans    &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LEFT_ARROW) LC(RIGHT_ARROW)>;
