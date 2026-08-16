@@ -213,7 +213,7 @@ layers:
   - '&mkp MB1'
   - SPACE
   - {t: BACKSPACE, h: RIGHT SHIFT}
-  - {t: ENTER, h: LCTRL}
+  - {t: ENTER, h: LEFT GUI}
   - DEL
   NUM_m:
   - '"'
