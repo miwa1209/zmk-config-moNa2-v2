@@ -163,10 +163,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LS(LG(S))  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &trans         &trans    &kp UP    &trans           &trans
-&trans      &trans         &kp C_REWIND  &kp C_PLAY_PAUSE   &kp C_FAST_FORWARD              &trans     &trans         &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
-&trans      &trans         &trans        &trans             &trans              &trans      &trans     &trans         &trans    &trans    &trans           &trans
-&trans      &trans         &trans        &kp LSHFT          &kp LCTRL           &kp LALT    &kp LC(Z)  &kp LC(LS(Z))                                       &kp LG(L)
+&kp ESCAPE  &kp LS(LG(S))  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                         &trans         &trans    &kp UP    &trans           &trans
+&trans      &trans         &kp K_BACK  &kp K_PLAY_PAUSE   &kp K_NEXT                   &trans     &trans         &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &trans
+&trans      &trans         &trans      &trans             &trans           &trans      &trans     &trans         &trans    &trans    &trans           &trans
+&trans      &trans         &trans      &kp LSHFT          &kp LCTRL        &kp LALT    &kp LC(Z)  &kp LC(LS(Z))                                       &kp LG(L)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
